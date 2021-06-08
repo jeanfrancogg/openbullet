@@ -32,15 +32,5 @@ Found a bug? [Create an issue!](https://help.github.com/en/articles/creating-an-
 3. **Build** the solution (Visual Studio will fetch all the missing nuget packages).
 4. You can find the executables inside the folders OpenBullet/bin/Release and OpenBulletCLI/bin/Release.
 
-# License
-This software is licensed under the MIT License.
-
-# Donate
-If you like this software, consider making a donation to the developer. Thank you!
-- BTC: **39yMkox6pP8tnSC7rZ5EM4nUUHgPbg1fKM**
-
 # Credits
 I want to thank all the community for their inputs that shaped OpenBullet into what it is now, and my gratitude goes towards **demiurgo** and **meinname**, who spent a lot of time helping me test and debug the Beta builds.
-
-# Contact
-I am not on discord / telegram, anyone on there who claims to be me is a fake. If you need to contact me for any reason you can send me an email here: `ruri [at] openbullet (dot) dev`. I don't check it very often so be patient please.
