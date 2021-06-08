@@ -43,7 +43,7 @@
                 <Button x:Name="newConfigButton" Click="newConfigButton_Click" >
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Images/Icons/new.png" Width="20" />
-                        <TextBlock VerticalAlignment="Center" Margin="5 0">New</TextBlock>
+                        <TextBlock VerticalAlignment="Center" Margin="5 0">Nuevo</TextBlock>
                     </StackPanel>
                 </Button>
                 <Button x:Name="loadConfigButton" Click="loadConfigButton_Click" >

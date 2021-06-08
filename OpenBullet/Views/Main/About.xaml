@@ -20,17 +20,19 @@
                    FontSize="14" 
                    TextWrapping="Wrap" 
                    Foreground="{DynamicResource ForegroundMain}">
-                <Italic>OpenBullet</Italic> is a webtesting suite that can be used for <Bold>scraping</Bold> and <Bold>parsing</Bold> data, automated <Bold>pentesting</Bold>, selenium <Bold>unit testing</Bold> and much more..
+                <Italic>OpenBullet</Italic> es un webtesting suite que se puede utilizar para <Bold>scraping</Bold> y <Bold>parsing</Bold> data, automated <Bold>pentesting</Bold>, selenium <Bold>unit testing</Bold> y mucho mas..
                 <LineBreak/><LineBreak/>
-                <Span Foreground="{DynamicResource ForegroundBad}"><Bold>IT IS ILLEGAL</Bold> to use this program to perform (D)DoS or credential stuffing attacks on sites you don't own!</Span>
+                <Span Foreground="{DynamicResource ForegroundBad}"><Bold>ES ILEGAL</Bold> usar este programa para realizar (D) DoS o ataques de relleno de credenciales en sitios que no son de su propiedad.</Span>
                 <LineBreak/><LineBreak/>
-                Special thanks to my collaborators:
+                Creadores de esta Modificacion:
                 <LineBreak/><LineBreak/>
-                • demiurgo
+                • JeanFrancoGG
                 <LineBreak/>
-                • meinname
+                • Ooops
+                <LineBreak/>
+                • Grain Net
                 <LineBreak/><LineBreak/>
-                <Span Foreground="{DynamicResource ForegroundGood}">This software is <Italic>Open Source</Italic> and licensed under the MIT license. Please visit the <Bold>repository</Bold> using the button below.</Span>
+                <Span Foreground="{DynamicResource ForegroundGood}">Este software es <Italic>Open Bullet</Italic> con licencia de MIT license y GrainNet Services.</Span>
             </TextBlock>
         </StackPanel>
 

@@ -41,8 +41,8 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" Content="Progress:" />
-            <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" Content="Test On:" />
+            <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" Content="Progreso:" />
+            <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" Content="Testeo En:" />
             <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="0" Minimum="0" Maximum="1" Margin="5" />
             <Grid Grid.Column="1" Grid.Row="1">
                 <Grid.ColumnDefinitions>
@@ -289,25 +289,25 @@
             <Button x:Name="importButton" Click="importButton_Click" Margin="0 -5 0 0">
                 <StackPanel Orientation="Horizontal" Margin="0 5 0 0">
                     <Image Source="/Images/Icons/import.png" Width="20" />
-                    <TextBlock VerticalAlignment="Center" Margin="5 0">Import</TextBlock>
+                    <TextBlock VerticalAlignment="Center" Margin="5 0">Importar</TextBlock>
                 </StackPanel>
             </Button>
             <Button x:Name="exportButton" Click="exportButton_Click" >
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/Images/Icons/export.png" Width="20" />
-                    <TextBlock VerticalAlignment="Center" Margin="5 0">Export</TextBlock>
+                    <TextBlock VerticalAlignment="Center" Margin="5 0">Exportar</TextBlock>
                 </StackPanel>
             </Button>
             <Button x:Name="deleteButton" Click="deleteButton_Click" >
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/Images/Icons/delete.png" Width="20" />
-                    <TextBlock VerticalAlignment="Center" Margin="5 0">Delete</TextBlock>
+                    <TextBlock VerticalAlignment="Center" Margin="5 0">Eliminar</TextBlock>
                 </StackPanel>
             </Button>
             <Button x:Name="deleteAllButton" Click="deleteAllButton_Click" >
                 <StackPanel Orientation="Horizontal">
                     <Image Source="/Images/Icons/delete.png" Width="20" />
-                    <TextBlock VerticalAlignment="Center" Margin="5 0">Delete All</TextBlock>
+                    <TextBlock VerticalAlignment="Center" Margin="5 0">Eliminar Todo</TextBlock>
                 </StackPanel>
             </Button>
             <Expander Header="More Actions" ExpandDirection="Down" IsExpanded="False">
@@ -338,15 +338,15 @@
                 <Label Content="{Binding Total}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label Content="Tested:" />
+                <Label Content="Testeado:" />
                 <Label Content="{Binding Tested}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label Content="Working:" Foreground="{DynamicResource ForegroundGood}" />
+                <Label Content="Funcional:" Foreground="{DynamicResource ForegroundGood}" />
                 <Label Content="{Binding Working}" Foreground="{DynamicResource ForegroundGood}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Label Content="Not Working:" Foreground="{DynamicResource ForegroundBad}" />
+                <Label Content="No Funcional:" Foreground="{DynamicResource ForegroundBad}" />
                 <Label Content="{Binding NotWorking}" Foreground="{DynamicResource ForegroundBad}" />
             </StackPanel>
             <StackPanel Orientation="Horizontal">

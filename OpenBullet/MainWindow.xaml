@@ -82,15 +82,15 @@
                         <Setter Property="VerticalAlignment" Value="Center" />
                     </Style>
                 </StackPanel.Resources>
-                <Label x:Name="menuOptionRunner" Content="Runner" MouseDown="menuOptionRunner_MouseDown" />
+                <Label x:Name="menuOptionRunner" Content="Inicio" MouseDown="menuOptionRunner_MouseDown" />
                 <Label x:Name="menuOptionProxyManager" Content="Proxies" MouseDown="menuOptionProxyManager_MouseDown" />
-                <Label x:Name="menuOptionWordlistManager" Content="Wordlists" MouseDown="menuOptionWordlistManager_MouseDown" />
+                <Label x:Name="menuOptionWordlistManager" Content="Combos" MouseDown="menuOptionWordlistManager_MouseDown" />
                 <Label x:Name="menuOptionConfigCreator" Content="Configs" MouseDown="menuOptionConfigCreator_MouseDown" />
                 <Label x:Name="menuOptionHitsDatabase" Content="Hits DB" MouseDown="menuOptionHitsDatabase_MouseDown" />
                 <Label x:Name="menuOptionTools" Content="Tools" MouseDown="menuOptionTools_MouseDown" />
                 <Label x:Name="menuOptionPlugins" Content="Plugins" MouseDown="menuOptionPlugins_MouseDown" />
-                <Label x:Name="menuOptionSettings" Content="Settings" MouseDown="menuOptionSettings_MouseDown" />
-                <Label x:Name="menuOptionAbout" Content="About" MouseDown="menuOptionAbout_MouseDown" />
+                <Label x:Name="menuOptionSettings" Content="Ajustes" MouseDown="menuOptionSettings_MouseDown" />
+                <Label x:Name="menuOptionAbout" Content="Ayuda" MouseDown="menuOptionAbout_MouseDown" />
             </StackPanel>
 
             <Image Grid.Column="1" x:Name="logImage" Height="20" Width="20" Source="/Images/Icons/log.png" ToolTip="Open the Log" MouseDown="logImage_MouseDown"/>
